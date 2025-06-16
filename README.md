@@ -27,7 +27,7 @@ The system emphasizes not only the stylistic accuracy but also the preservation 
 - 📁 The dataset contains **paired face images**: realistic input photos and their stylized versions.
 - 🖼️ Stylized outputs are provided in three styles: Beauty, Comic, and 3D Cartoon.
 - 📥 Download from the provided Google Drive link:  
-  [Dataset Folder](https://drive.google.com/drive/folders/1k6g0WWvgzEhzJdJMv_ITE2j9f7CDMURJ?usp=drive_link)
+  [Dataset Folder](https://drive.google.com/drive/folders/1k6g0WfWgzEhzJdJMv_lTE2j9f7CDMURJ)
 
 ---
 
@@ -62,3 +62,22 @@ python main.py
 3. The system will automatically generate the styled portrait.
 
 4. View the result and optionally save or retry.
+
+## 📁 Project Structure
+```plaintext
+Style-Guided-Portrait-Generation/
+├── main.py                # Main entry point with GUI
+├── second_page.py
+├── third_page.py
+├── train/
+│   ├── Beauty Filter Style.ipynb     # train beauty model
+│   ├── Comic Style_修改2.ipynb       # train comic model
+│   └── 3D.ipynb                      # train 3D render model
+├── beauty_unet_model.py
+├── comic_unet_model.py
+├── threeD_unet_model.py
+├── beauty_unet_model.pth
+├── comic_unet_model.pth
+├── styled_unet_model.pth
+└── README.md
+```
