@@ -33,15 +33,13 @@ The system emphasizes not only the stylistic accuracy but also the preservation 
 
 ## 🛠️ Tech Stack
 
-- Python 3.x  
+- Python  
 - PyTorch  
 - torchvision  
 - PIL (Python Imaging Library)  
 - Tkinter (for GUI)
 
 ---
-
-## 🚀 Installation
 
 ## 🚀 Installation
 
